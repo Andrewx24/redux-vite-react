@@ -1,3 +1,4 @@
+import { Counter } from "./features/counter/Counter"
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       Hello world! Redux tutorial
     </h1>
   
-       
+      <Counter/>
     </>
   )
 }
